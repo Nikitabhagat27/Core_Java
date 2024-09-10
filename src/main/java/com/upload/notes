@@ -1,0 +1,11 @@
+file upload
+pre required jars
+a)commons-fileupload-1.3.jar
+b)commons-io-1.3.2.jar
+create a html page:- 
+<form action="upload.do" method="post" enctype="multipart/form-data">
+
+to select the file,use the input type as file
+<input type="file"  name="photo" size="60"/>
+in upload servlet class
+@MultipartConfig(location="C:/Users/bhaga/uploaded",fileSizeThreshold = 1024*1024*10,maxFileSize = 1024*1024*50)

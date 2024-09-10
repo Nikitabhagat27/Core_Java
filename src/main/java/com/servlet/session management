@@ -1,0 +1,59 @@
+session management:-
+http protocol and web servers are stateless that is for the web server ,every request is a new request to process 
+and they can not identify wheather it is coming from same clint or new a new  clint.
+some times in web application ,we need to identify the clint and process the request as pr the clint .
+Examlpes:-
+iN A shopping cart application like (amazon, flipcart,myntra) we should know 
+who is sending the request to add an item 
+In  which cart the item has to be added
+who is sending place order request so that it can charge the amount to correct  line
+Session is a  period of time where user sends multiple request and ricive multiple responses 
+in multiple request user ay send some data that should be stored and manage  in the server
+session will be stored line clint specific data.
+session is conversaional state between clint and server.
+within the user session , you have to do two things
+1)identify the clint 
+2)manage the conversaional state (clint specific data ).
+to identify the clint as new or old, container usages session id 
+To store clints conversational state or data, we have to use Http Session object
+
+  Q.)what exectaly get session method is doing?
+  checks wheather session object availabe for this or not.
+  if session if session object is not available than create and return the  session object.
+  
+   Q2.)what exectaly get session(true) method is doing?
+   =same as get session.
+   
+   Q.3)what exectaly get session(false) method is doing?
+   if session if session object is not available than return null.
+   
+   Session management Technique:-
+   1)HttpSession
+   2)cookies
+   3)url-rewriting
+   4)hidden fields
+    you can use the following to store the clint conversetional data
+    1)httpsession
+    2)cookies
+    
+    you can use the following to carry the session id
+    1)cookies.
+    2)url-rewriting
+    3)hidden fields
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

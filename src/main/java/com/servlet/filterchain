@@ -1,0 +1,11 @@
+filter chaining
+
+involking multiple filter one by one is called filter chaining
+Q. diffrence between filter chaining and servlete chaining ?
+
+ANS:-a)defination
+     b)implementation is done by cointainer automatically based on the configuration
+     of filters.
+     c)implementation of servlet chaining is donr by the help of request dispatchers.
+     
+     

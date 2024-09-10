@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>registration</title>
+</head>
+
+
+<body  text=”blue”><center> 
+<form action="register.do" method="post"> 
+Name:<input type="text" name="name" size="35" maxlength="50"><br/><br/> 
+Email:<input type="text" name="email" size="35" maxlength="50"><br/><br/> 
+Password:<input type="password" name="password" size="32" maxlength="50"><br/><br/> 
+Gender:
+<input type="radio" name="gender" value="Male">Male 
+<input type="radio" name="gender" value="Female">Female 
+<!--Gender1 to dono select ho jayenge or ydi gender same pass krwayenge to ek hi selest hoga  -->
+<p> Choose courses</p> 
+
+<input type="checkbox" name="c1" value="Java">Java 
+<input type="checkbox" name="c2" value="Servlet">Servlet 
+<input type="checkbox" name="c3" value="PHP">PHP 
+<input type="checkbox" name="c4" value="JSP">JSP 
+
+<p>Batch timings</p>
+<select name="timings"  > 
+<option >select timing</option>
+<option value="7AM to 9AM">7AM to 9AM</option> 
+<option value="9AM TO 11AM" selected >9AM TO 11AM</option> 
+<option value="4PM TO 6PM">4PM TO 6PM</option> 
+<option value="6PM TO 8PM">6AM TO 8AM</option> 
+<!-- selected option me phele se select value di hogi -->
+</select>
+<p>Remarks</p>
+<textarea name="remarks" rows="5" cols="20"></textarea>"
+<p/>
+<input type="submit" value="submit"> 
+<p/>
+<input type="reset" value="reset"> 
+<br/><br/><br/> 
+All rights reserved &copy Mak 
+</form> 
+</center> 
+</body>
+</html>
