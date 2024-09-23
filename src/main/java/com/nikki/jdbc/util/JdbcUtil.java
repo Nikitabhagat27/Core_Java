@@ -1,4 +1,4 @@
-;'package com.nikki.jdbc.util;
+package com.nikki.jdbc.util;
 
 
 
